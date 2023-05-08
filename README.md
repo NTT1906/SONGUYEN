@@ -6,7 +6,7 @@ M = N + a + b + c + ...
 Given M, find N
 
 M <= 2^128
-
+https://oj.luyencode.net/problem/CD2B18
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
