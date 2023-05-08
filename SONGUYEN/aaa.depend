@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1683579945 source:d:\randomforest-master\aaa\main.cpp
+	<bits/stdc++.h>
+	<string>
+	"uint128_t/uint128_t.h"
+
+1683578027 source:d:\randomforest-master\aaa\uint128_t\uint128_t.cpp
+	"uint128_t.build"
+	<algorithm>
+	<cctype>
+	<sstream>
+
+1683578027 d:\randomforest-master\aaa\uint128_t\uint128_t.build
+	"uint128_t_config.include"
+	"uint128_t.include"
+
+1683578027 d:\randomforest-master\aaa\uint128_t\uint128_t_config.include
+
+1683578027 d:\randomforest-master\aaa\uint128_t\uint128_t.include
+	<cstdint>
+	<ostream>
+	<stdexcept>
+	<string>
+	<type_traits>
+	<utility>
+	<vector>
+	"endianness.h"
+
+1683578027 d:\randomforest-master\aaa\uint128_t\endianness.h
+
+1683578708 source:d:\randomforest-master\aaa\integer\integer.cpp
+	"integer.h"
+
+1683578943 d:\randomforest-master\aaa\integer\integer.h
+	<cmath>
+	<cstdint>
+	<deque>
+	<iostream>
+	<limits>
+	<stdexcept>
+	<type_traits>
+	<sstream>
+
+1683578027 d:\randomforest-master\aaa\uint128_t\uint128_t.h
+	"uint128_t_config.include"
+	"uint128_t.include"
+
