@@ -7,6 +7,7 @@ Given M, find N
 
 M <= 2^128
 https://oj.luyencode.net/problem/CD2B18
+C++ (7/20)
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -39,6 +40,18 @@ int main() {
     return 0;
 }
 
+```
+
+P4 - Python 3 (Accept 20/20)
+```python
+m=int(input())
+ans=m
+for n in range(m,m-9*len(str(m))-1,-1):
+    t=sum(map(int,str(n)))
+    if(n+t==m):ans=min(ans,n)
+    if(n<=0): break;
+if(ans!=m): print(ans)
+else: print(0)
 ```
 P3: COUPLE THAT HAS GCD OF 1
 ```cpp
